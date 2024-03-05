@@ -54,7 +54,7 @@ function NavBarTop() {
           isSmallScreen ? !expanded : expanded === false)} sticky="top"
       >
         <Container>
-          <Navbar.Brand href="#home" className=''>
+          <Navbar.Brand href="#root" className=''>
             {(isSmallScreen || scrollY < 10) 
               ? <LogoMd className={`logo-color-var ${scrollY > 10 ? 'ps-0 pt-2 pb-2 be-5 me-0' : ''}`} />
               : <LogoSm className='logo-color-var' />
@@ -86,7 +86,7 @@ function NavBarTop() {
                 <Nav.Link href="#how-to-apply" onClick={() => handleNavLinkClick('#how-to-apply')}>Kā pieteikties?</Nav.Link>
                 <Nav.Link href="#news" onClick={() => handleNavLinkClick('#news')}>Jaunumi</Nav.Link>
                 <div className={`d-flex ${(expanded) ? '' : 'rounded-pill px-5 navbar-border-color'}`}>
-                  <Nav.Link href="#contacts" onClick={() => handleNavLinkClick('#form')} className={`d-flex align-items-center gap-3 show`}>
+                  <Nav.Link href="#form" onClick={() => handleNavLinkClick('#form')} className={`d-flex align-items-center gap-3 show`}>
                     Kontakti
                       {!isSmallScreen && <ContactIcon className='logo-color-var'/>}
                   </Nav.Link>
