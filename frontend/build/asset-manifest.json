@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.60ce363e.css",
-    "main.js": "/static/js/main.a4584ca4.js",
+    "main.js": "/static/js/main.8dc7335a.js",
     "static/media/aerial-shot-st-gertrude-church-background-riga-latvia.png": "/static/media/aerial-shot-st-gertrude-church-background-riga-latvia.4e0450063944c82e84b1.png",
     "static/media/riga-20-july-2020-amazing-aerial-view-statue-liberty-milda-riga-latvia-during-sunset-statue-liberty-holding-three-golden-stars.jpeg": "/static/media/riga-20-july-2020-amazing-aerial-view-statue-liberty-milda-riga-latvia-during-sunset-statue-liberty-holding-three-golden-stars.f8829657fe64021a3871.jpeg",
     "static/media/vansu-bridge-daugava-river-during-sunset-riga-latvia.jpg": "/static/media/vansu-bridge-daugava-river-during-sunset-riga-latvia.5c249aa120fb3950773e.jpg",
@@ -17,9 +17,9 @@
     "static/media/Mask Group 8.svg": "/static/media/Mask Group 8.c43b9b9108133b6c3209.svg",
     "static/media/Group 529.svg": "/static/media/Group 529.e286a5eb0b5484e901f8d93259351582.svg",
     "static/media/Mask Group 7.svg": "/static/media/Mask Group 7.7e10859c6d704f4c8702.svg",
+    "index.html": "/index.html",
     "static/media/chat-audio-svgrepo-com.svg": "/static/media/chat-audio-svgrepo-com.307917376e232655858de0d90f27445e.svg",
     "static/media/Group 3739.svg": "/static/media/Group 3739.b69a72b9f4ccd0b52c77734e0313095a.svg",
-    "index.html": "/index.html",
     "static/media/Group 3703.svg": "/static/media/Group 3703.61a1109127446ec6dcfb9339f5afacdf.svg",
     "static/media/upload-minimalistic-svgrepo-com.svg": "/static/media/upload-minimalistic-svgrepo-com.38f3642a58a837aedc232c22e1a4e6b0.svg",
     "static/media/Group 3740.svg": "/static/media/Group 3740.f63c734ae4bc7867127b0c9f79cec128.svg",
@@ -42,10 +42,10 @@
     "static/media/Path 130.svg": "/static/media/Path 130.aceb48c7390a8e188adc.svg",
     "static/media/Path 229.svg": "/static/media/Path 229.b832f4c89e4d6ac02e0e.svg",
     "main.60ce363e.css.map": "/static/css/main.60ce363e.css.map",
-    "main.a4584ca4.js.map": "/static/js/main.a4584ca4.js.map"
+    "main.8dc7335a.js.map": "/static/js/main.8dc7335a.js.map"
   },
   "entrypoints": [
     "static/css/main.60ce363e.css",
-    "static/js/main.a4584ca4.js"
+    "static/js/main.8dc7335a.js"
   ]
 }

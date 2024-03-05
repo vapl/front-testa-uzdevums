@@ -53,14 +53,14 @@ function NavBarTop() {
         onToggle={() => setExpanded(
           isSmallScreen ? !expanded : expanded === false)} sticky="top"
       >
-        <Container>
-          <Navbar.Brand href="#root" className=''>
+        <Container className='justify-content-between align-items-center'>
+          <Navbar.Brand href="#home" className='me-0'>
             {(isSmallScreen || scrollY < 10) 
-              ? <LogoMd className={`logo-color-var ${scrollY > 10 ? 'ps-0 pt-2 pb-2 be-5 me-0' : ''}`} />
-              : <LogoSm className='logo-color-var' />
+              ? <LogoMd className={`logo-color-var ${scrollY > 10 ? '' : ''}`} style={{height: '31px', width: '129px'}}/>
+              : <LogoSm className='logo-color-var' style={{height: '100%', width: '90px'}} />
             }
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" className={`d-flex nowrap border-0 pe-0 ${isSmallScreen && !expanded && scrollY > 10 ? 'toggle-deco' : ''}`}>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" className={`d-flex nowrap border-0 pe-0 ${isSmallScreen && !expanded && scrollY > 10 ? 'toggle-deco' : ''}`} style={{color: '#000000'}}>
             {(!expanded && isSmallScreen && scrollY > 10) && (
                 <div className='nav-contact-link pe-5'>
                   <Nav.Link href="#contacts" onClick={() => handleNavLinkClick('#form')} className={`d-flex align-items-center gap-3`}>
@@ -78,8 +78,8 @@ function NavBarTop() {
             
           </Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav">
-            <div className={`ms-auto mx-4 flex-nowrap ${(expanded && isSmallScreen) ? 'ps-4 mt-5 mb-5 fw-bolder' : ''}`}>
-              <Nav className="gap-3 navbar-links-color d-flex flex-nowrap text-nowrap">
+            <div className={`ms-auto flex-nowrap ${(expanded && isSmallScreen) ? 'ps-2 pt-3 pb-3 fw-bolder' : ''}`}>
+              <Nav className="gap-3 navbar-links-color d-flex flex-nowrap text-nowrap" style={{color: (isSmallScreen || scrollY > 10) ? '#000000': '#ffffff'}}>
                 <Nav.Link href="#home" onClick={() => handleNavLinkClick('#root')}>Sākums</Nav.Link>
                 <Nav.Link href="#faq" onClick={() => handleNavLinkClick('#faq')}>BUJ</Nav.Link>
                 <Nav.Link href="#properties" onClick={() => handleNavLinkClick('#properties')}>Īpašības</Nav.Link>

@@ -71,6 +71,14 @@ color: var(--unnamed-color-56bfa4);
 /* ************************ CUSTOM CSS **************************** */
 /* **************************************************************** */
 
+@media only screen and (max-width: 992px) {
+
+    .container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+
 .overly {
     content: '';
     position: fixed;
@@ -199,7 +207,7 @@ p {
     top: 0;
     position: absolute;
     background-color: #457FC4;
-    width: 90px;
+    width: 70px;
     height: 100%;
     z-index: -1;
     visibility: hidden;
@@ -271,6 +279,7 @@ p {
     position: absolute;
     background-image: url('../assets/images/Path\ 31927.svg');
     background-repeat: no-repeat;
+    background-size: contain;
     width: 150px;
     height: 150px;
     right: 30%;
@@ -311,10 +320,11 @@ p {
     }
     
     .deco-6 {
-        right: -70px;
-        bottom: 50%;
+        background-position: 80px 80px;
+        right: 0;
+        top: 0;
         background-size: 100px;
-        z-index: 3;
+        z-index: 2;
         filter: blur(8px);
     }
 
